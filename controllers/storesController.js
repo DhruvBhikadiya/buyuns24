@@ -1,4 +1,5 @@
 const Stores = require('../models/storesModel');
+const Pagecategorys = require('../models/pagescategoryModel');
 
 exports.createStore = async (req, res) => {
     try {

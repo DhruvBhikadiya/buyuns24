@@ -90,6 +90,7 @@ const Users = {
             throw err;
         }
     },
+
     delete: async (id) => {
         try {
             const [results] = await db.execute('DELETE FROM users WHERE id = ?', [id]);
